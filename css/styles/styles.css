@@ -1,0 +1,196 @@
+:root {
+    --white1: #ffffff66;
+    --white2: #ffffffcc;
+    --white3: #eee;
+    --black1: #333;
+    --black2: #3333333f;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color8);
+}
+
+body {
+    background-image: var(--bg);
+    background-size: 6vh;
+    background-repeat: repeat;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexc {
+    display: flex;
+    flex-direction: column;
+}
+
+.gap1 {
+    gap: 1vh;
+}
+
+.f-large {
+    font-size: large;
+}
+
+.f-medium {
+    font-size: medium;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.p1 {
+    padding: 1vh;
+}
+.pi1 {
+    padding-inline: 1vh;
+}
+.p2 {
+    padding: 2vh;
+}
+.pi2 {
+    padding-inline: 2vh;
+}
+.pbl1 {
+    padding-block: 1vh;
+}
+
+.jusl {
+    justify-content: left;
+}
+.jusc {
+    justify-content: center;
+}
+.jusr {
+    justify-content: right;
+}
+.jussb {
+    justify-content: space-between;
+}
+.alc {
+    align-items: center;
+}
+
+.fade1 {
+    background: linear-gradient(to bottom, var(--color2) 0, var(--color2) 39%, var(--color3) 40%, var(--color3) 60%, white 97%, white 97%) !important; 
+}
+
+.fade2 {
+    background: linear-gradient(to bottom, var(--color2) 0, var(--color3) 40%, var(--white1));
+}
+
+button {
+    border: 1px solid var(--color5);
+    padding: .6vh 0.7vh;
+    cursor: pointer;
+    color: var(--color6);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0px 0px 8px var(--black2);
+    transition: 0.3s;
+}
+
+input[type="text"].basic {
+    width: 100%;
+    border: 1px solid var(--color4);
+    background-color: var(--white1);
+    border-radius: 6px;
+    padding: 1vh 1vh;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input[type="text"].basic:hover, input[type="text"].basic:focus {
+    outline: none;
+    border: 1px solid var(--color5);
+    transition: 0.3s;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 25%;
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid var(--color5);
+    border-radius: 8px;
+    max-width: 100%;
+    min-width: 40%;
+    box-sizing: border-box;
+}
+
+.minibox {
+    background-color: var(--white1);
+    border: 1px solid var(--color4);
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title-row {
+    display: flex;
+}
+
+.title-row span {
+    text-align: center;
+    font-size: large;
+    padding: 0%;
+}
+
+hr.separator {
+    border: none;
+    border-top: 1px solid var(--color3);
+    width: 100%;
+    margin-block-start: 1vh;
+    margin-block-end: 1vh;
+}
+
+.navbar {
+    background-color: var(--white3);
+    padding: 2vh 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px var(--black2);
+}
+
+.navbar span.title {
+    font-size: xx-large;
+    color: var(--black1);
+}
+
+.navbar button {
+    flex-grow: 1;
+    color: var(--black1);
+    border: 1px solid var(--black1);
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.navfooter {
+    height: 4vh;
+    background-image: url("/assets/babado.png");
+    background-repeat: repeat-x;
+    background-size: 5vh;
+}
+
+.navlinks {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh;
+
+}
