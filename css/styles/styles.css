@@ -164,7 +164,7 @@ hr.separator {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 0px 20px var(--black2);
+    box-shadow: 0px 0px 20px var(--black1);
 }
 
 .navbar span.title {
@@ -182,7 +182,7 @@ hr.separator {
 
 .navfooter {
     height: 4vh;
-    background-image: url("/assets/babado.png");
+    background-image: url("/assets/renda.png");
     background-repeat: repeat-x;
     background-size: 5vh;
 }
