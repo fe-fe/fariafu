@@ -11,3 +11,8 @@ tema sky, background cherry
 
 tema waffle, background waffle
 ![pasta do projeto](README/twbw.png)
+
+<br>
+
+sem renda na barra de navegacao
+![pasta do projeto](README/semrenda.png)
